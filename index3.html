@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: whitesmoke;
+
+        }
+
+        #container {
+            max-width: 1024px;
+            min-width: 360px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin: 25px;
+
+        }
+
+        #container>div {
+            margin: 6px;
+            text-align: center;  
+            width: 150px;
+            height: 100px;
+            margin: 20px;
+            text-align: center;
+            font-size: 24px;
+            background-color: #66a9eb;
+            border-radius: 25px;
+
+        }
+
+        div.photo {
+            background-attachment: fixed;
+            background-position: center;
+
+        }
+
+
+        div.photo img {
+            width: 100%;
+            align-self: center;
+            margin-bottom: -22px;
+
+        }
+
+        div.text {
+            background-color: white;
+            border-bottom-left-radius: 25px;
+            border-bottom-right-radius: 25px;
+            padding: 5px;
+
+        }
+
+        h1 {
+            
+            max-width: 1024px;
+            min-width: 360px;
+            text-align: left;
+            margin: 50px;
+
+            
+        }
+        p {
+            text-align: left;
+            margin: 45px;
+
+        }
+
+        
+
+        @media screen and (max-width: 1024px) {
+            .column {
+                flex-basis: 33.33%;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .column {
+                flex-basis: 50%;
+            }
+        }
+
+        @media screen and (max-width: 414px) {
+            .column {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Gallery Heading</h1>
+    <div id="container">
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+        <div class="photo">
+            <img src="placeholder-image.png" alt="photo">
+            <div class="text">Image Title</div>
+        </div>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Viverra orci sagittis eu volutpat odio facilisis mauris sit. Consectetur purus ut faucibus
+        pulvinar elementum integer. Facilisis mauris sit amet massa vitae tortor. Viverra ipsum nunc aliquet bibendum
+        enim facilisis gravida neque convallis. Aliquet sagittis id consectetur purus ut faucibus. Cursus mattis
+        molestie a iaculis at erat pellentesque. Lorem ipsum dolor sit amet consectetur adipiscing elit. Ut pharetra sit
+        amet aliquam id diam. Sollicitudin aliquam ultrices sagittis orci. Ornare suspendisse sed nisi lacus sed viverra
+        tellus in hac.</p>
+
+
+</body>
+
+</html>
